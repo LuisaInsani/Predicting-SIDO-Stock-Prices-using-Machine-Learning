@@ -83,4 +83,38 @@ Adapun detail dari *dataset* tersebut adalah:
 - Total sampel di dalam *dataset* train: 974
 - Total sampel di dalam *dataset* test: 243
 
- 
+## Modelling
+LSTM (Long Short-Term Memory) adalah salah satu jenis dari neural network yang digunakan dalam pemodelan data sekuensial, seperti harga saham. Prediksi harga saham menggunakan Long Short-Term Memory (LSTM) memiliki beberapa keunggulan, diantaranya adalah sebagai berikut.
+- LSTM dapat memproses dan memprediksi data di masa depan berdasarkan data historis yang ada.
+- Harga saham adalah data sekuensial yang berubah seiring waktu. LSTM, sebagai jenis dari recurrent neural network (RNN), dirancang khusus untuk memodelkan data sekuensial dengan baik. Ini memungkinkan LSTM untuk menangkap pola dan hubungan yang kompleks dalam data harga saham yang mungkin sulit dipahami oleh model konvensional.
+- Salah satu keunggulan utama dari LSTM adalah kemampuannya untuk mengingat informasi jangka panjang dalam urutan data. Ini bermanfaat dalam memprediksi harga saham karena beberapa faktor yang mempengaruhi harga saham mungkin memiliki efek yang berkepanjangan atau bersifat jangka panjang.
+
+![image](https://github.com/LuisaInsani/Predicting-SIDO-Stock-Prices-using-Machine-Learning/assets/160982894/da43cbda-5b44-4e71-9ff4-09376324e6b2)
+
+Gambar 3. Grafik Prediksi Harga Saham Hasil Training Data
+
+![image](https://github.com/LuisaInsani/Predicting-SIDO-Stock-Prices-using-Machine-Learning/assets/160982894/f5259028-b270-445d-a70f-8edec69c9365)
+
+Hasil prediksi 
+
+## Evaluation
+Adapun metrik yang sebagai alat ukur perfoma model yang dibuat adalah Root Mean Squared Error (RMSE). Root Mean Squared Error (RMSE) adalah salah satu metrik evaluasi yang umum digunakan untuk mengukur kinerja model, termasuk dalam konteks prediksi harga saham. RMSE mengukur seberapa besar deviasi atau kesalahan rata-rata dari prediksi model terhadap nilai sebenarnya (ground truth) dalam satuan yang sama dengan variabel target.
+
+Rumus matematis untuk RMSE adalah sebagai berikut:
+
+$$ RMSE = (1/n) Σ (y<sub>i</sub> - ŷ<sub>i</sub>)<sup>2</sup> $$
+
+Dimana:
+y<sub>i</sub> mewakili nilai yang diamati,
+
+ŷ<sub>i</sub> mewakili nilai prediksi,
+
+n adalah jumlah titik data,
+
+Nilai RSME pada model LSTM yang telah dibuat adalah 2.9292999890385842. Nilai RMSE sebesar 2.9292999890385842 menunjukkan bahwa akar kuadrat rata-rata dari kuadrat kesalahan prediksi adalah sekitar 2.93 unit, dalam satuan yang sama dengan variabel target. Dengan demikian, semakin rendah nilai RMSE, semakin baik kinerja model dalam memprediksi nilai sebenarnya. Dalam konteks prediksi harga saham, nilai RMSE yang rendah menunjukkan bahwa model memiliki tingkat akurasi yang baik dalam memprediksi harga saham, dengan kesalahan rata-rata sekitar 2.93 unit.
+
+
+
+
+
+
