@@ -60,4 +60,27 @@ Berdasarkan Gambar 1, diketahui karakteristik dari data-data tersebut adalah.
 
 ![image](https://github.com/LuisaInsani/Predicting-SIDO-Stock-Prices-using-Machine-Learning/assets/160982894/0bc3878d-a334-4d65-85f4-d179560b9188)
 
-Gambar 2b. Analisis Multivariat (Correlation Matrix)
+Gambar 2. Analisis Multivariat (Correlation Matrix)
+
+Gambar 2 merupakan Correlation Matrix yang menunjukkan hubungan antar fitur dalam nilai korelasi. Jika diamati, fitur 'Open', 'High', 'Low' memiliki skor korelasi yang sangat besar (>0.99) dengan fitur 'Close'. Artinya, fitur 'Close' berkorelasi cukup tinggi dengan ketiga fitur tersebut. 
+
+## Data Preparation
+Pada proses *Data Preparation* dilakukan kegiatan seperti *Data Gathering*, *Data Assessing*, dan *Data Cleaning*.
+Pada proses *Data Gathering*, data diimpor sedemikian rupa agar bisa dibaca dengan baik menggunakan *dataframe* Pandas.
+Untuk proses *Data Assessing*, berikut adalah beberapa pengecekan yang dilakukan:
+- Duplicate data (data yang serupa dengan data lainnya).
+- Missing value (data atau informasi yang "hilang" atau tidak tersedia).
+
+Pada proses *Data Cleaning*, umumnya terdapat tiga metode yang dapat digunakan antara lain seperti berikut:
+- Dropping (metode yang dilakukan dengan cara menghapus sejumlah baris data).
+- Imputation (metode yang dilakukan dengan cara mengganti nilai yang "hilang" atau tidak tersedia dengan nilai tertentu yang bisa berupa median atau mean dari data).
+- Interpolation (metode menghasilkan titik-titik data baru dalam suatu jangkauan dari suatu data).
+
+Pada proyek ini ditemukan *Missing Value*. Adapaun metode yang digunakan untuk mengatasi hal ini adalah dengan menerapkan *dropping* dimana data yang *missing* dihapus barisnya. 
+
+Setelah data dibersihkan, *dataset* dibagi menjadi data train dan data test untuk proses *Modeling*, dimana rasio pembagian data yang dipilih adalah 80:20. 
+Adapun detail dari *dataset* tersebut adalah:
+- Total sampel di dalam *dataset* train: 974
+- Total sampel di dalam *dataset* test: 243
+
+ 
