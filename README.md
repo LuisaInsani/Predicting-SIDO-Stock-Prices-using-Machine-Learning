@@ -113,8 +113,7 @@ n adalah jumlah titik data,
 
 Nilai RSME pada model LSTM yang telah dibuat adalah 2.9292999890385842. Nilai RMSE sebesar 2.9292999890385842 menunjukkan bahwa akar kuadrat rata-rata dari kuadrat kesalahan prediksi adalah sekitar 2.93 unit, dalam satuan yang sama dengan variabel target. Dengan demikian, semakin rendah nilai RMSE, semakin baik kinerja model dalam memprediksi nilai sebenarnya. Dalam konteks prediksi harga saham, nilai RMSE yang rendah menunjukkan bahwa model memiliki tingkat akurasi yang baik dalam memprediksi harga saham, dengan kesalahan rata-rata sekitar 2.93 unit.
 
+## Referensi
+[1] Harianja, R., Diana, S., & Sianipar, S. (2022). Pengaruh Dividen Terhadap Harga Saham Pada Bursa Efek Indonesia Periode Tahun 2018-2020. Buletin Poltanesa, 23(2), Halaman 463-467.
 
-
-
-
-
+[2] https://investor.sidomuncul.co.id/id/home.html
