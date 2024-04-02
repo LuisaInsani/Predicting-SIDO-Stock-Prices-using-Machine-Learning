@@ -40,3 +40,24 @@ URL: https://finance.yahoo.com/quote/SIDO.JK?.tsrc=fin-srch
 -	_Volume_: Jumlah saham yang diperdagangkan selama hari perdagangan. Tingkat volume dapat memberikan petunjuk tentang seberapa aktifnya pasar dan seberapa besar minat investor dalam saham tersebut.
 -	Close: Harga terakhir pada suatu hari perdagangan. Ini juga merupakan variabel penting dalam analisis teknikal karena mencerminkan harga yang diterima oleh investor pada akhir hari perdagangan.
 
+Untuk memahami data lebih lanjut, dilakukan analisis univariate, bivariate, multivariate, dan visualisasi data.
+
+Analisis Univariat merupakan bentuk analisis data yang hanya merepresentasikan informasi yang terdapat pada satu variabel. Jenis visualisasi ini umumnya digunakan untuk memberikan gambaran terkait distribusi sebuah variabel dalam suatu dataset. Analisis bivariate merupakan jenis analisis data yang melibatkan dua variabel secara bersamaan. Tujuan dari analisis bivariate adalah untuk memahami hubungan antara dua variabel dan melihat pola atau tren yang mungkin terjadi di antara keduanya. Analisis Multivariat tmerupakan jenis analisis data yang terdapat dalam lebih dari dua variabel. Jenis visualisasi ini digunakan untuk merepresentasikan hubungan dan pola yang terdapat dalam multidimensional data. Selain melalui analisis, dilakukan juga Visualisasi Data. Memvisualisasikan data memberikan wawasan mendalam tentang perilaku berbagai fitur-fitur yang tersedia dalam dataset.
+
+Berikut adalah hasil Exploratory Data Analysis (EDA), dimana Gambar 1 merupakan EDA Analisis Univariat, Gambar 2 merupakan EDA Analisis Bivariate, dan Gambar 3 merupakan EDA Analisis Multivariat.
+
+![image](https://github.com/LuisaInsani/Predicting-SIDO-Stock-Prices-using-Machine-Learning/assets/160982894/16767a36-da4f-4c37-a856-d17b7dc613fc)
+
+Gambar 1. Analisis Univariat Data Numerik
+
+Berdasarkan Gambar 1, diketahui karakteristik dari data-data tersebut adalah.
+- Harga Open (pembukaan) saham SIDO dalam 5 tahun terakhir mayoritas berada pada interval harga 592-637 dan 730-775.
+- Harga High (tertinggi) saham SIDO dalam 5 tahun terakhir mayoritas berada pada interval harga 742-787 dan 604-649.
+- Harga Low (terendah) saham SIDO dalam 5 tahun terakhir mayoritas berada pada interval harga 581-625 dan 761-805.
+- Harga Adj Close saham SIDO dalam 5 tahun terakhir mayoritas berada pada interval harga 651-696 dan 697-742.
+- Volume transaksi saham SIDO dalam 5 tahun terakhir mayoritas sebanyak 371816-8671816.
+- Harga Close (penutupan) saham SIDO dalam 5 tahun terakhir mayoritas berada pada interval harga 594-639 dan 732-777.
+
+![image](https://github.com/LuisaInsani/Predicting-SIDO-Stock-Prices-using-Machine-Learning/assets/160982894/0bc3878d-a334-4d65-85f4-d179560b9188)
+
+Gambar 2b. Analisis Multivariat (Correlation Matrix)
