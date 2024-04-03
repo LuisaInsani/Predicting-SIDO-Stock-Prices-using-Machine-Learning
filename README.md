@@ -57,12 +57,24 @@ Berdasarkan Gambar 1, diketahui karakteristik dari data-data tersebut adalah.
 - Harga Adj Close saham SIDO dalam 5 tahun terakhir mayoritas berada pada interval harga 651-696 dan 697-742.
 - Volume transaksi saham SIDO dalam 5 tahun terakhir mayoritas sebanyak 371816-8671816.
 - Harga Close (penutupan) saham SIDO dalam 5 tahun terakhir mayoritas berada pada interval harga 594-639 dan 732-777.
+  
+![image](https://github.com/LuisaInsani/Predicting-SIDO-Stock-Prices-using-Machine-Learning/assets/160982894/40e81b7c-57b4-44e2-83fe-20c57e1b96e5)
+
+Gambar 2a. Analisis Bivariat Fitur Open dan Close
+
+![image](https://github.com/LuisaInsani/Predicting-SIDO-Stock-Prices-using-Machine-Learning/assets/160982894/6a5d21fd-5a81-4599-ab77-08378ec24afa)
+
+Gambar 2b. Analisis Bivariat Fitur High dan Close
+
+![image](https://github.com/LuisaInsani/Predicting-SIDO-Stock-Prices-using-Machine-Learning/assets/160982894/8f19aa86-aea1-499c-9559-5d2155fa2aee)
+
+Gambar 2c. Analisis Bivariat Fitur Low dan Close
 
 ![image](https://github.com/LuisaInsani/Predicting-SIDO-Stock-Prices-using-Machine-Learning/assets/160982894/0bc3878d-a334-4d65-85f4-d179560b9188)
 
-Gambar 2. Analisis Multivariat (Correlation Matrix)
+Gambar 3. Analisis Multivariat (Correlation Matrix)
 
-Gambar 2 merupakan Correlation Matrix yang menunjukkan hubungan antar fitur dalam nilai korelasi. Jika diamati, fitur 'Open', 'High', 'Low' memiliki skor korelasi yang sangat besar (>0.99) dengan fitur 'Close'. Artinya, fitur 'Close' berkorelasi cukup tinggi dengan ketiga fitur tersebut. 
+Gambar 3 merupakan Correlation Matrix yang menunjukkan hubungan antar fitur dalam nilai korelasi. Jika diamati, fitur 'Open', 'High', 'Low' memiliki skor korelasi yang sangat besar (>0.99) dengan fitur 'Close'. Artinya, fitur 'Close' berkorelasi cukup tinggi dengan ketiga fitur tersebut. 
 
 ## Data Preparation
 Pada proses *Data Preparation* dilakukan kegiatan seperti *Data Gathering*, *Data Assessing*, dan *Data Cleaning*.
