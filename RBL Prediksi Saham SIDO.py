@@ -36,7 +36,6 @@ plt.plot(df['Close'])
 plt.xlabel('Date', fontsize=18)
 plt.ylabel('Close Price IDR', fontsize=18)
 plt.show()
-#bagian ini using excel aja biar keliatan date nya
 
 #Visualize the volume of stock being traded history
 plt.figure(figsize=(16,8))
@@ -45,7 +44,6 @@ plt.plot(df['Volume'])
 plt.xlabel('Date', fontsize=18)
 plt.ylabel('Sales Volume', fontsize=18)
 plt.show()
-#bagian ini using excel aja biar keliatan date nya
 
 # Create a new dataframe with only the close columns
 data = df.filter(['Close'])
